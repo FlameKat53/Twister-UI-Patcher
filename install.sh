@@ -12,10 +12,10 @@ sudo apt install -y python3-pil python3-pil.imagetk
 sudo pip3 install wget
 #Get archive from github and unzip it
 cd ${HOME}
-wget https://github.com/FlameKat53/Twister-UI-Patcher/archive/master.zip
+wget https://github.com/FlameKat53/Twister-UI-Patcher/archive/main.zip
 unzip master.zip
 rm master.zip
-sudo rm -r -f /home/pi/patcher
+sudo rm -r -f ${HOME}/patcher
 mv Twister-UI-Patcher-master/ ${HOME}/patcher/
 cd ${HOME}/patcher/
 python3 c_desktop.py $USER
