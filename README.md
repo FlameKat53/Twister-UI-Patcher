@@ -4,10 +4,10 @@ An updater for Twister UI that downloads and runs the latest patch for Twister U
 
 
 #### Go support Twister UI!</br>
-### <a href="https://twisteros.com/">>Twister OS<</a>
+### <a href="https://twisteros.com/">>Twister UI<</a>
 
 # Install/Update
-`wget https://raw.githubusercontent.com/FlameKat53/Twister-UI-Patcher/master/install.sh && chmod +x ./install.sh && ./install.sh && rm install.sh`<br>
+`wget https://raw.githubusercontent.com/FlameKat53/Twister-UI-Patcher/main/install.sh && chmod +x ./install.sh && ./install.sh && rm install.sh`<br>
 If you notice the repo has been changed, run `twistpatch-update` to update your current version of the patcher.
 
 # Uninstall
@@ -16,8 +16,7 @@ If you notice the repo has been changed, run `twistpatch-update` to update your 
 # Usage
 [![Screenshot-2020-09-21-11-40-47.png](https://i.postimg.cc/JzSG6D3p/Screenshot-2020-09-21-11-40-47.png)](https://postimg.cc/NK7sL0zX) [![Screenshot-2020-09-21-11-41-29.png](https://i.postimg.cc/0NmrLkcP/Screenshot-2020-09-21-11-41-29.png)](https://postimg.cc/CZhF8V3Q)<br>
 There are 3 ways to open the patcher. Firstly, you can click on the "Twister UI Patcher" in your applications menu, or you can type "twistpatch" into terminal. it will take a while to open, but once you open the patcher, make sure nothing important is running(compiling, unsaved mc worlds, etc)because you have to reboot after the patch. Once it is open, click the big button labeled "Update Twister UI" to download the latest scripts to check for updates. It will either start downloading patches and rebooting, or say you are on the latest patch and exit, or say you're offline and then exit. 
-If you have missed out on more than 1 patch, then you will have to run the patcher after each reboot due to the nature of how the patches install updates.
-You may have noticed that sometimes you get a little pop-up window on your desktop telling you to upgrade. If you want to peramently stop them, then type `sudo rm ~/.config/autostart/patcher.desktop`. NOTE: This will be reverted the next time you update the patcher.<br>
+If you have missed out on more than 1 patch, then you will have to run the patcher after each reboot due to the nature of how the patches install updates.<br>
 [![image.png](https://i.postimg.cc/3xmJ091w/image.png)](https://postimg.cc/BjZGdTdW)
 
 ### Commands
