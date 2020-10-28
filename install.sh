@@ -32,7 +32,7 @@ rm README.md CODE_OF_CONDUCT.md CONTRIBUTING.md
 sudo rm -f /usr/local/bin/twistpatch
 
 if [ ! -f "/usr/local/bin/twistpatch" ]; then
-    sudo ln -s '${HOME}/patcher/src/start.sh' /usr/local/bin/twistpatch
+    sudo ln -s ${HOME}/patcher/src/start.sh /usr/local/bin/twistpatch
     sudo chmod +x /usr/local/bin/twistpatch
 fi
 
@@ -40,13 +40,13 @@ sudo rm -f /usr/local/bin/twistpatch-uninstall
 sudo rm -f /usr/local/bin/twistpatch-remove
 
 if [ ! -f "/usr/local/bin/twistpatch-remove" ]; then
-    sudo ln -s '${HOME}/patcher/uninstall.sh' /usr/local/bin/twistpatch-remove
+    sudo ln -s ${HOME}/patcher/uninstall.sh /usr/local/bin/twistpatch-remove
     sudo chmod +x /usr/local/bin/twistpatch-remove
 fi
 
 sudo rm -f /usr/local/bin/twistpatch-update
 
 if [ ! -f "/usr/local/bin/twistpatch-update" ]; then
-    sudo ln -s  '${HOME}/patcher/upgradepatcher.sh' /usr/local/bin/twistpatch-update
+    sudo ln -s  ${HOME}/patcher/upgradepatcher.sh /usr/local/bin/twistpatch-update
     sudo chmod +x /usr/local/bin/twistpatch-update
 fi
