@@ -16,7 +16,7 @@ wget https://github.com/FlameKat53/Twister-UI-Patcher/archive/main.zip
 unzip master.zip
 rm master.zip
 sudo rm -r -f ${HOME}/patcher
-mv Twister-UI-Patcher-master/ ${HOME}/patcher/
+mv Twister-UI-Patcher-main/ ${HOME}/patcher/
 cd ${HOME}/patcher/
 python3 c_desktop.py $USER
 sudo chmod +x *.sh
