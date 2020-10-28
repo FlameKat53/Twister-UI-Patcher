@@ -13,8 +13,8 @@ sudo pip3 install wget
 #Get archive from github and unzip it
 cd ${HOME}
 wget https://github.com/FlameKat53/Twister-UI-Patcher/archive/main.zip
-unzip master.zip
-rm master.zip
+unzip main.zip
+rm main.zip
 sudo rm -r -f ${HOME}/patcher
 mv Twister-UI-Patcher-main/ ${HOME}/patcher/
 cd ${HOME}/patcher/
