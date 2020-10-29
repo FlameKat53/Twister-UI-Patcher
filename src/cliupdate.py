@@ -25,6 +25,7 @@ def update():
 					xver.append(xverbuff)
 					xverbuff = ""
 			version_link = ""
+			os.system('rm -f ${HOME}/patcher/src/latestui.txt')
 			url = "https://twisteros.com/Patches/latestui.txt"
 			with urllib.request.urlopen(url) as f:
 				xcontent = f.read().decode('utf-8')
