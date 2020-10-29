@@ -1,8 +1,8 @@
 #!/bin/bash
-cd ${HOME}/patcher/src/
+cd /home/flame/patcher/src/
 
 if [ "$1" == "--nogui" ]; then
-	sudo python3 ${HOME}/patcher/src/main.py ${HOME} 1 1
+    python3 main.py ${HOME} 1 1
 else
-	sudo python3 ${HOME}/patcher/src/main.py ${HOME} 0 0 > log.txt
+	python3 main.py ${HOME} 0 0 > log.txt
 fi
