@@ -6,7 +6,7 @@ from tkinter import ttk
 from PIL import Image, ImageTk
 
 ### update stuff
-app_version = "Version 0.0.1\n"
+app_version = "Version 0.1.0\n"
 def get_app_version():
 	return app_version
 
