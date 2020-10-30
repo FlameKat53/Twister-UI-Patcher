@@ -1,5 +1,4 @@
 #!/bin/bash
-cd ${HOME}/patcher/src/
 rm -f ${HOME}/patcher/src/latestui.txt
 if [ "$1" == "--remove" ]; then
 	cd ${HOME}
@@ -10,6 +9,7 @@ if [ "$1" == "--update" ]; then
 	cd ${HOME}
 	./patcher/upgradepatcher.sh
 fi
+cd ${HOME}/patcher/src/
 if [ "$1" == "--nogui" ]; then
 	python3 main.py ${HOME} 1 1
 else
