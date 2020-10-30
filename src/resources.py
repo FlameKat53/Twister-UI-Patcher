@@ -11,5 +11,5 @@ def get_app_version():
 	return app_version
 
 img_path = os.path.dirname('logo.png')
-webversion = sp.getoutput('wget -q https://twisteros.com/Patches/latestui.txt && head -n 1 latest.txt && rm latest.txt')
+webversion = sp.getoutput('wget -q https://twisteros.com/Patches/latestui.txt && head -n 1 latestui.txt && rm latestui.txt')
 twistver = sp.getoutput('twistver')
