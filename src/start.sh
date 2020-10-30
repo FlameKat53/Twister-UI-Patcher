@@ -9,9 +9,11 @@ if [ "$1" == "--update" ]; then
 	cd ${HOME}
 	./patcher/upgradepatcher.sh
 fi
-cd ${HOME}/patcher/src/
+
 if [ "$1" == "--nogui" ]; then
+	cd ${HOME}/patcher/src/
 	python3 main.py ${HOME} 1 1
 else
+	cd ${HOME}/patcher/src/
 	python3 main.py ${HOME} 0 0 > log.txt
 fi
