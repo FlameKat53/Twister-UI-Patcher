@@ -8,10 +8,10 @@ An updater for Twister UI that downloads and runs the latest patch for Twister U
 
 # Install/Update
 `wget https://raw.githubusercontent.com/FlameKat53/Twister-UI-Patcher/main/install.sh && chmod +x ./install.sh && ./install.sh && rm install.sh`<br>
-If you notice the repo has been changed, run `twistpatch-update` to update your current version of the patcher.
+If you notice the repo has been changed, run `twistpatch --update` to update your current version of the patcher.
 
 # Uninstall
-`twistpatch-remove`
+`twistpatch --remove`
 
 # Usage
 [![Screenshot-2020-09-21-11-40-47.png](https://i.postimg.cc/JzSG6D3p/Screenshot-2020-09-21-11-40-47.png)](https://postimg.cc/NK7sL0zX) [![Screenshot-2020-09-21-11-41-29.png](https://i.postimg.cc/0NmrLkcP/Screenshot-2020-09-21-11-41-29.png)](https://postimg.cc/CZhF8V3Q)<br>
@@ -23,8 +23,8 @@ If you have missed out on more than 1 patch, then you will have to run the patch
 ```
 twistpatch:           Runs the GUI patcher
 twistpatch --nogui:   Runs the CLI patcher
-twistpatch-update:    Removes and reinstalls TwistPatch to get the latest code
-twistpatch-remove:    Uninstalls TwistPatcher from your system
+twistpatch --update:  Removes and reinstalls TwistPatch to get the latest code
+twistpatch --remove:  Uninstalls TwistPatcher from your system
 ```
 
 # Support
