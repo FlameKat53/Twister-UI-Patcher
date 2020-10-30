@@ -122,4 +122,5 @@ class Window:
 			msb.showinfo(title="TwistPatch", message="Network is disconnected\nThe patcher will now close")
 			sys.exit(0)
 
+        os.system('rm -f ${HOME}/patcher/src/latestui.txt')
 		master.mainloop()
