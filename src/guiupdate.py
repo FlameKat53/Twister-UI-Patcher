@@ -8,15 +8,12 @@ import urllib.request
 versions = []
 verbuff = ""
 home_path = sys.argv[1]
+
 def other():
 	msb.showinfo(title="TwistPatch", message='The patcher will begin updating your system\npress OK to continue')
 	os.system('chmod +x patch.run')
 	os.system('xfce4-terminal -e ./patch.run')
-	os.system('rm patch.run')
-	
 
-
-	
 def update():
 			my_ver = rs.twistver[19:]
 			my_ver = my_ver+" "
@@ -73,6 +70,7 @@ def update():
 					version_link = 'https://twisteros.com/Patches/TwisterUIv'+xnver[0]+'-'+xnver[1]+'Patch.run'
 					if (((xnver[0]>=xver[0]) and (xnver[1]>xver[1]))):
 						msb.showinfo(title="TwistPatch", message='Downloading '+xnver[0]+'.'+xnver[1]+' Patch in the background...\nPress OK to begin downloading.')
+						os.system('rm -f patch.run')
 						wget.download('https://twisteros.com/Patches/TwisterUIv'+xnver[0]+'-'+xnver[1]+'Patch.run', out=home_path+'/patcher/src/patch.run')
 						other()
 						break
@@ -80,6 +78,7 @@ def update():
 					version_link = 'https://twisteros.com/Patches/TwisterUIv'+xnver[0]+'-'+xnver[1]+'-'+xnver[2]+'Patch.run'
 					if (((xnver[0]>=xver[0]) and (xnver[1]>=xver[1]) and (xnver[2]>xver[2]))):
 						msb.showinfo(title="TwistPatch", message='Downloading '+xnver[0]+'.'+xnver[1]+'.'+xnver[2]+' Patch in the background...\nPress OK to begin downloading.')
+						os.system('rm -f patch.run')
 						wget.download('https://twisteros.com/Patches/TwisterUIv'+xnver[0]+'-'+xnver[1]+'-'+xnver[2]+'Patch.run', out=home_path+'/patcher/src/patch.run')
 						other()
 						break
