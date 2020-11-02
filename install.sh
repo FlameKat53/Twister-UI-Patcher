@@ -8,7 +8,7 @@ echo Checking for tkinter: $problem
 if [ "" == "$problem" ]; then
 	sudo apt-get install python3-tk
 fi
-sudo apt install -y python3-pil python3-pil.imagetk
+sudo apt install -y python3-pil python3-pil.imagetk python3-pip
 sudo pip3 install wget
 #Get archive from github and unzip it
 cd ${HOME}
