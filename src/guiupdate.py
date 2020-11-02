@@ -10,7 +10,7 @@ verbuff = ""
 home_path = sys.argv[1]
 
 def other():
-	#msb.showinfo(title="TwistPatch", message='The patcher will begin updating your system\npress OK to continue')
+	msb.showinfo(title="TwistPatch", message='The patcher will begin updating your system\npress OK to continue')
 	os.system('chmod +x patch.run')
 	os.system('xfce4-terminal -e ./patch.run')
 
