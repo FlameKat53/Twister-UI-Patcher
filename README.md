@@ -46,7 +46,7 @@ The patcher has been featured in these places:<br>
 
 # Changes
 Dev phase
-- [ ] Can install patch
-- [ ] Automatically update in order from current release to latest release
-- [ ] Uninstall script
-- [ ] Prefixes
+- [x] Can install patch
+- [x] Automatically update in order from current release to latest release
+- [x] Uninstall script
+- [x] Prefixes
